@@ -1,44 +1,21 @@
-# Amazon Review Sentiment Analysis
+## Live Dashboard
 
-## Overview
-This project analyzes Amazon food product reviews to determine customer sentiment and extract insights.
+🚀 **Interactive Sentiment Analyzer**: https://sentiment-dashboard-a5xewubpu6xabmbuqsto.streamlit.app
 
-## Dataset
-- **Source:** Amazon Fine Food Reviews (Kaggle)
-- **Size:** 2,000 reviews
-- **Columns:** ProductId, UserId, Score, clean_text, sentiment_label
+Upload your own CSV and get instant analysis with:
+- Sentiment distribution pie chart
+- Word clouds from negative reviews
+- Top complaint topics
+- Dataset preview
 
-## Analysis Results
-- **77.9%** of reviews are positive
-- **14.0%** are neutral
-- **9.1%** are negative
+## Project Phases
 
-## Key Findings
-- High star ratings (4-5 stars) perfectly match positive sentiment
-- Negative reviews mention: product quality, taste, packaging issues
-- Strong correlation between ratings and sentiment
+- **Phase 1**: ✅ Data analysis & visualization (Colab)
+- **Phase 2**: ✅ Interactive Streamlit dashboard (deployed)
+- **Phase 3**: FastAPI backend (upcoming)
+- **Phase 4**: Scale to 100K+ reviews (upcoming)
 
-## Recommendation
-Focus on improving product quality and packaging to reduce negative reviews.
+## Tech Stack
 
-## Technology Stack
-- Python 3
-- Pandas (data manipulation)
-- Matplotlib (visualization)
-- WordCloud (text visualization)
-
-## Files
-- `sentiment_analysis.ipynb` - Main analysis notebook
-- Charts and insights included
-
-## How to Run
-1. Download the notebook from GitHub
-2. Open in Google Colab or Jupyter
-3. Upload the CSV file (amazon.csv)
-4. Run all cells
-
-## Author
-[Your Name]
-
-## License
-MIT
+- Python, Pandas, Matplotlib, Streamlit
+- Deployed on Streamlit Cloud
