@@ -1,6 +1,6 @@
 ## Live Dashboard
 
-🚀 **Interactive Sentiment Analyzer**: https://sentiment-dashboard-a5xewubpu6xabmbuqsto.streamlit.app
+🚀 **Interactive Sentiment Analyzer**: https://sentiment-dashboard-a5xewubpuz6xabmbwuqsto.streamlit.app/
 
 Upload your own CSV and get instant analysis with:
 - Sentiment distribution pie chart
